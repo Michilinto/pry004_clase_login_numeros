@@ -35,7 +35,7 @@ class FormularioLogin extends StatelessWidget {
         EntradaLogin(
           etiqueta: 'Contraseña',
           controller: contrasenia,
-          ocultar: false,
+          ocultar: true,
         ),
         SizedBox(height: 15),
         BotonesLogin(
